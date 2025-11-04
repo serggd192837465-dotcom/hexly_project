@@ -1,0 +1,24 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/variables.css);
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/hero-section/hero_section.css);
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/portfolio/portfoflio.css);
+@import url(../blocks/experience/experience.css);
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/footer/footer.css);
+
+body {
+    margin: 0;
+    font-family: var(--font-main);
+    background: var(--bg);
+    color: var(--text);
+}
+
+.contanier{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
