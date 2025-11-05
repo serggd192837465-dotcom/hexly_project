@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-toggle {
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav__list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__list a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.contact-btn {
+  background: #1664EA;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 100%;
+  padding: 4px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
