@@ -1,0 +1,135 @@
+.contact {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.contact__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: "Inter";
+}
+
+.contact-subtitle {
+  color: #bdbdbd;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.contact-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.contact-text {
+  color: #333;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.contact-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.contact-info {
+  background-color: #ffd86f;
+  padding: 40px;
+  border-radius: 8px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.info-block {
+  margin-bottom: 25px;
+}
+
+.info-block h3 {
+  margin: 0 0 5px 0;
+  font-weight: 700;
+}
+
+.info-block p {
+  margin: 0;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.form-row {
+  display: flex;
+  gap: 40px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.form-group textarea {
+    border: 1px solid #555;
+    resize: vertical;
+    border-radius: 4px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-group span {
+  color: red;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-group small {
+  color: #777;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  background-color: #005eff;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0044cc;
+}
+
+.form-footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.consent {
+  font-size: 12px;
+  color: #555;
+}
+
+.consent a {
+  color: #005eff;
+  text-decoration: none;
+}

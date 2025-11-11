@@ -1,0 +1,91 @@
+.experience {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #ffda74;
+  padding: 100px 0 120px;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Верхние надписи */
+.experience-top {
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: #1B1B1B40;
+    margin-bottom: 30px;
+}
+
+.experience-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 18px;
+  color: #1B1B1B;
+}
+
+.experience-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 80px;
+  color: #1B1B1B;
+}
+
+/* Сетка карточек */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 590px);
+  grid-gap: 20px 20px;
+  justify-content: center;
+}
+
+/* Карточки */
+.experience-card {
+  border: 1px solid #1B1B1B40;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 338px;
+  width: 590px;
+  background-color: #ffda74;
+  box-sizing: border-box;
+}
+
+.experience-card-title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 12px;
+  color: #1B1B1B;
+}
+
+.experience-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: auto;
+  max-width: 480px;
+  color: #1B1B1B;
+}
+
+.experience-year {
+    display: inline-block;
+    transform: scaleX(1.05);
+    font-weight: 700;
+    font-style: bold;
+    font-size: 100px;
+    line-height: 100%;
+    margin: 55px 0 0;
+    color: #1B1B1B;
+}

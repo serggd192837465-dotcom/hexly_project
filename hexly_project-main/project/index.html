@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="./pages/styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
+    <header class="header" id="header">
+        <div class="container header__container">
             <button class="theme-toggle">🌙 theme</button>
 
             <nav class="nav">
                 <ul class="nav__list">
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Experience</a></li>
+                    <li><a href="#hero">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
                 </ul>
             </nav>
-
-            <button class="contact-btn">contact</button>
+            <a href="#contact">
+                <button class="contact-btn">contact</button>
+            </a>
         </div>
     </header>
 
 
-    <section class="hero">
-        <div class="container hero__inner">
+    <section class="hero" id="hero">
+        <div class="container hero__container">
             <div class="hero__text">
                 <p class="hero__subtitle">ABOUT ME</p>
                 <h1>Hi, <span class="blue">I'm John</span>, a beginner<br> Web developer.</h1>
@@ -35,24 +36,251 @@
                 </p>
                 <ul class="hero__socials">
                     <li><p>Check out my</p></li>
-                    <li><a href="#"><img src="./pictures/jpeg/icon.jpg" alt="Git"></a></li>
-                    <li><a href="#"><img src="./pictures/jpeg/icon (1).jpg" alt="TG"></a></li>
-                    <li><a href="#"><img src="./pictures/jpeg/icon (2).jpg" alt="IN"></a></li>
+                    <li><a href="https://github.com/serggd192837465-dotcom"><img src="./pictures/jpeg/icon.jpg" alt="Git"></a></li>
+                    <li><a href="https://t.me/saiiok"><img src="./pictures/jpeg/icon (1).jpg" alt="TG"></a></li>
+                    <li><a href="/pictures/jpeg/Meta-768x432.jpg"><img src="./pictures/jpeg/icon (2).jpg" alt="IN"></a></li>
                 </ul>
-                <p class="hero__subtitle">skroll down</p>
             </div>
 
             <div class="hero__photo">
                 <img src="./pictures/jpeg/muzik.jpg" alt="John">
             </div>
+            
+            <div class="hero__scroll">
+            <div class="hero__scroll-line"></div>
+            <span class="hero__scroll-text">scroll down</span>
+            </div>
+
+            </div>
         </div>
     </section>
 
 
-    <section class="skills">Skills</section>
-    <section class="portfolio">Porfolio</section>
-    <section class="experience">Experience</section>
-    <section class="contact">Contact</section>
-    <footer class="footer">Footer</footer>
+    <section class="skills" id="skills">
+        <p class="skills-top">skills</p>
+        <h2 class="skills__title">My Skills</h2>
+        <p class="skills__subtitle">
+            I am constantly learning and developing, expanding my professional and social skills.
+        </p>
+
+        <div class="skills__content">
+            <div class="skills__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>VS Code</span>
+                <span>GIT</span>
+                <span>DevTools</span>
+                <span>Figma</span>
+                <span>Postman</span>
+                <span>TypeScript</span>
+                <span>React</span>
+                <span>Redux Toolkit</span>
+                <span>SQL</span>
+                <span>Webpack</span>
+                <span>Vite</span>
+                <span>Node.js</span>
+                <span>Python</span>
+                <span>REST API</span>
+            </div>
+
+            <div class="skills__progress">
+            <h3>Developer Skills</h3>
+            <div class="skill">
+                <span>HTML5</span>
+                <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>CSS3</span>
+                <div class="bar"><div class="fill" style="width: 64.75%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="bar"><div class="fill" style="width: 50%;"></div></div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container portfolio__container">
+            <p class="projects-label">PROJECTS</p>
+            <h2 class="portfolio-title">My Portfolio</h2>
+            <p class="portfolio-text">
+                My best works during my studies and participation in open web<br>community projects.
+            </p>
+
+            <div class="cards">
+                <div class="card horizontal" style="background-image: url('/pictures/jpeg/hr1.png');">
+                <p class="category">CATEGORY</p>
+                <h3 class="headline">Cool Two-Line Headline</h3>
+                <button class="read-more"><a href="/pictures/jpeg/bibib.jpg" style="color: inherit; text-decoration: none;">read more</a></button>
+                </div>
+
+                <div class="card vertical" style="background-image: url('/pictures/jpeg/vr1.png');">
+                <p class="category">CATEGORY</p>
+                <h3 class="headline">Cool Three-Line Headline</h3>
+                <button class="read-more"><a href="/pictures/jpeg/bibib.jpg" style="color: inherit; text-decoration: none;">read more</a></button>
+                </div>
+
+                <div class="card vertical" style="background-image: url('/pictures/jpeg/vr2.png');">
+                <p class="category">CATEGORY</p>
+                <h3 class="headline">Cool Three-Line Headline</h3>
+                <button class="read-more"><a href="/pictures/jpeg/bibib.jpg" style="color: inherit; text-decoration: none;">read more</a></button>
+                </div>
+
+                <div class="card vertical" style="background-image: url('/pictures/jpeg/vr3.png');">
+                <p class="category">CATEGORY</p>
+                <h3 class="headline">Cool Three-Line Headline</h3>
+                <button class="read-more"><a href="/pictures/jpeg/bibib.jpg" style="color: inherit; text-decoration: none;">read more</a></button>
+                </div>
+
+                <div class="card vertical" style="background-image: url('/pictures/jpeg/vr4.png');">
+                <p class="category">CATEGORY</p>
+                <h3 class="headline">Cool Three-Line Headline</h3>
+                <button class="read-more"><a href="/pictures/jpeg/bibib.jpg" style="color: inherit; text-decoration: none;">read more</a></button>
+                </div>
+
+                <div class="card horizontal" style="background-image: url('/pictures/jpeg/hr2.png');">
+                <p class="category">CATEGORY</p>
+                <h3 class="headline">Cool Two-Line Headline</h3>
+                <button class="read-more"><a href="/pictures/jpeg/bibib.jpg" style="color: inherit; text-decoration: none;">read more</a></button>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <p class="experience-top">experience</p>
+        <h2 class="experience-title">Experience</h2>
+        <p class="experience-subtitle">
+            My professional journey in learning and self-<br>development as a beginner web engineer
+        </p>
+
+        <div class="experience-grid">
+            <div class="experience-card">
+            <h3 class="experience-card-title">SOME EXPERIENCE 1</h3>
+            <p class="experience-card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Curabitur in suscipit mi. Interdum et malesuada fames ac<br> ante ipsum primis in faucibus.
+            </p>
+            <h1 class="experience-year">2023</h1>
+            </div>
+
+            <div class="experience-card">
+            <h3 class="experience-card-title">SOME EXPERIENCE 2</h3>
+            <p class="experience-card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Curabitur in suscipit mi. Interdum et malesuada fames ac<br> ante ipsum primis in faucibus.
+            </p>
+            <h1 class="experience-year">2024</h1>
+            </div>
+
+            <div class="experience-card">
+            <h3 class="experience-card-title">SOME EXPERIENCE 3</h3>
+            <p class="experience-card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Curabitur in suscipit mi. Interdum et malesuada fames ac<br> ante ipsum primis in faucibus.
+            </p>
+            <h1 class="experience-year">2025</h1>
+            </div>
+
+            <div class="experience-card">
+            <h3 class="experience-card-title">SOME EXPERIENCE 4</h3>
+            <p class="experience-card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Curabitur in suscipit mi. Interdum et malesuada fames ac<br> ante ipsum primis in faucibus.
+            </p>
+            <h1 class="experience-year">2026</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+         <div class="container contact__container">
+            <p class="contact-subtitle">CONTACTS</p>
+            <h1 class="contact-title">Contact With Me</h1>
+            <p class="contact-text">
+            If you are interested in cooperation, I will be glad to receive your
+            proposals and work on joint projects.
+            </p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-block">
+                        <h3>Location</h3>
+                        <p>Moscow, Russia</p>
+                        </div>
+                        <div class="info-block">
+                        <h3>Email</h3>
+                        <p>john@example.com</p>
+                        </div>
+                        <div class="info-block">
+                        <h3>Phone</h3>
+                        <p>+7 987 123-45-60</p>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">You Name <span>*</span></label>
+                        <input
+                        type="text"
+                        id="name"
+                        placeholder="Please introduce yourself"
+                        required
+                        />
+                        <small>Minimum number of characters - 3</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email <span>*</span></label>
+                        <input
+                        type="email"
+                        id="email"
+                        placeholder="Please enter your email address"
+                        required
+                        />
+                        <small>Address format - test@example.com</small>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            rows="5"
+                            placeholder="Please enter your message"
+                        ></textarea>
+                    </div>
+
+                    <div class="form-footer">
+                        <button class="submit-btn" href='./pictures/jpeg/krasava.jpg'>submit</button>
+                        <p class="consent">
+                            By clicking the submit button You confirm my consent to the
+                            processing of <a href="#">personal data</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+         <div class="footer-container">
+            <nav class="footer-nav">
+                <a href="#hero">About Me</a>
+                <span>|</span>
+                <a href="#skills">Skills</a>
+                <span>|</span>
+                <a href="#portfolio">Projects</a>
+                <span>|</span>
+                <a href="#experience">Experience</a>
+            </nav>
+
+            <p class="footer-copy">2025–2028 © IT HEXLET</p>
+            <p class="footer-desc">
+            This project is a practical project for mastering the structure and style of a web page.
+            </p>
+
+            <a href="#top" class="back-to-top">BACK TO TOP</a>
+        </div>
+    </footer>
 </body>
 </html>
